@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Kumar Singh  | Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "header">
+        <img src="Resources/logo_aks.png" alt="" width="50" onclick="audio.play()">
+
+        <i class='bx bx-menu' id = "menu-icon" onclick="audio.play()"></i>
+        <nav class = "navbar">
+            <a href="#home" class = "active" onclick="audio.play()">Home</a>
+            <a href="#project" onclick="audio.play()">Project</a>
+            <a href="#about" onclick="audio.play()">About Me</a>
+            <a href="#contact" onclick="audio.play()">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! It's Me</h3>
+            <h1>ANKIT KUMAR SINGH</h1>
+            <h3>And I'm a <span class = "multiple-text"></span class></span></h3>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/ankit-kumar-singh-208977270/" target="_blank"><i class='bx bxl-linkedin' onclick="audio.play()"></i></a>
+                <a href="https://www.instagram.com/ansingh8318/" target="_blank"><i class='bx bxl-instagram' onclick="audio.play()"></i></a>
+                <a href="https://www.instagram.com/animation_visual/" target="_blank"><i class='bx bxl-instagram' onclick="audio.play()"></i></a>
+                <a href="https://github.com/ankit-21310" target="_blank"><i class='bx bxl-github' onclick="audio.play()"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="Resources/me 1.jpg" alt=""> 
+        </div>
+    </section>
+
+    <section class = "project" id = "project">
+        <h2 class = "heading">MY <span>Projects and certificates</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="Resources/logo-design.jpg" alt="">
+                <div class="project-layer">
+                    <h4>MY LOGO</h4>
+                    <p>In this project, In this project, I designed many logos,  that help people to grow their business. The logo allows users to create a unique id for their businesses or shops.</p>
+                    <a href="https://online.flippingbook.com/view/1052381238/" target="_blank"><i class='bx bx-link-external' onclick="audio.play()"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="Resources/certificate logo.jpg" alt="">
+                <div class="project-layer">
+                    <h4>certificates get from online courses and projects </h4>
+                    <p>Obtaining certificates from online courses and showcasing successful projects can significantly enhance one's professional profile and open doors to exciting opportunities. These achievements demonstrate dedication to continuous learning and practical application of acquired knowledge.</p>
+                <a href="https://online.flippingbook.com/view/1052694788/" target="_blank"><i class='bx bx-link-external' onclick="audio.play()"></i></a>   
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="Resources/NGO.jpeg" alt="">
+                <div class="project-layer">
+                    <h4>NGO PROJECT</h4>
+                    <p>I aim to work with an NGO to educate and provide food to underprivileged children/women. As a member of the Salt and Pepper Club's Design team, I create posters to promote fundraisers for the Paryaas team which later give to different NGOs who need help. To better understand the real problems they face, I will communicate with the NGO, explore untapped facilities, and propose new ways to help them. Additionally, I aspire to involve women in this process for a long-lasting impact. Through collaboration and action, I am determined to make a meaningful difference in the lives of these children and their communities.</p>
+                <a href="https://online.flippingbook.com/view/487105185/" target="_blank"><i class='bx bx-link-external' onclick="audio.play()"></i></a>   
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="Resources/DPP.jpeg" alt="">
+                <div class="project-layer">
+                    <h4>Design Processes & Perspectives</h4>
+                    <p>This Journal serves as a record of my journey through the Design Processes and Perspectives course. In it, I document my design process, reflect on my work, collect inspiration, and stay organized. It is my personal space to explore my creativity, reflect on my work, and keep track of my progress throughout the DPP course.</p>
+                <a href="https://online.flippingbook.com/view/487105185/" target="_blank"><i class='bx bx-link-external' onclick="audio.play()"></i></a>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class = "about-img">
+            <img src="Resources/me 2.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>
+                I am a third year student at Indraprastha Academy
+Information Technology Delhi is currently pursuing
+Bachelor's degree in computer science and design.
+I am passionate about human-computer interaction,
+and constantly looking for new challenges and opportunities
+to learn and develop. I love to explore new technologies and ideas.
+On this site you will find an introduction to some of my best works
+and projects, as well as a summary of my skills and accomplishments.
+I am always looking for new opportunities and challenges,!</p>
+            <a href="#" class="button" onclick="audio.play()">Read More</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <label for="Speech Recognition"></label>
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Mobile No.">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="speechToText" cols="30" rows="10" placeholder="Speak Message" onclick="record()"></textarea>
+            <input type="submit" value="Send Message" class="button" onclick="audio.play()">
+        </form>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by  Ankit Kumar Singh  | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
